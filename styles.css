@@ -22,9 +22,84 @@ h2{
 }
 
 img{
-    border-radius: 50%;
+    border-radius: 50px;
+    height: 400px;
+    width: auto;
+}
+
+.circleborder{
+    display: inline-block;
+    border: 15px solid palevioletred;
+    border-radius: 65px;
+    height: 400px;
 }
 
 body{
-    background-color: bisque;
+    background-color: rosybrown;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p,
+ul,
+ol{
+ display: block;
+ border: 15px solid;
+ border-color:crimson;   
+ border-radius: 25px;
+ background-color: white;
+}
+
+
+ul,
+ol{
+  display: inline-block;
+  padding: 5px;
+  
+}
+
+
+
+.Front-list{
+    width: 400px;
+    border: 20px solid peru;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+
+.Odin-header{
+    display: block;
+    border-radius: 33px;
+    border: 15px solid white;
+    line-height: 10px;
+}
+
+
+.Beef-header,
+.Pizza-header,
+.Chicken-header{
+    display: block;
+    border-radius: 33px;
+    border: 10px solid white;
+    font-size: 22px;
+}
+
